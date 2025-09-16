@@ -39,7 +39,7 @@ const MailIcon = () => (
 )
 
 export function HeroSection() {
-  const texts = ["Satrio Wicaksono", "with team we create"]
+  const texts = ["Satrio Wicaksono", "Teamworks Is A Universe", "Full-Stack Developer"]
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 relative bg-none overflow-hidden">
