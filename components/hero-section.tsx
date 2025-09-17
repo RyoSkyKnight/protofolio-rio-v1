@@ -2,6 +2,8 @@
 
 import { TypingAnimation } from "./typing-animation"
 import { Button } from "./ui/button"
+import Image from "next/image"
+import avatar from "./images/avatar.png"
 
 const ArrowDownIcon = () => (
   <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -230,10 +232,7 @@ export function HeroSection() {
               {/* Placeholder for photo */}
               <div className="absolute inset-4 bg-gradient-to-br from-purple-800/40 to-blue-800/40 rounded-xl border border-purple-400/30 flex items-center justify-center">
                 <div className="text-center text-purple-300">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center animate-float-gentle">
-                    <span className="text-2xl font-bold text-white">SW</span>
-                  </div>
-                  <p className="text-sm opacity-70">Your Photo Here</p>
+                   <Image src={avatar} alt="Satrio Wicaksono" width={250} height={250} className="" />
                 </div>
               </div>
 
